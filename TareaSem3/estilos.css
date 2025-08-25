@@ -1,0 +1,22 @@
+/*Propuesta A*/
+div {
+    border-top: 10px solid black;
+    border-right: 40px solid black;
+    border-bottom: 20px solid black;
+    border-left: 30px solid black;
+}
+
+/*PROPUESTA B*/
+/* Enlaces rojos al pasar el mouse */
+a:hover {
+    color: red;
+}
+
+/* Enlaces verdes al recibir foco del teclado */
+a:focus {
+    color: green;
+}
+
+p{
+    font-style: italic;
+}
