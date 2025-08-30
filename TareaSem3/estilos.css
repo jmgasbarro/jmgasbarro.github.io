@@ -8,14 +8,32 @@ div {
 
 /*PROPUESTA B*/
 /* Enlaces rojos al pasar el mouse */
-a:hover {
+a{
     color: red;
+    text-decoration: none;
 }
 
-/* Enlaces verdes al recibir foco del teclado */
-a:focus {
-    color: green;
+/*Usuario situa el cursor sobre el enlace*/
+a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: underline;
 }
+/*Cuando un enlace está activo, se muestra de color naranja y sin subrayado.*/
+a:active {
+    color: orange;
+    text-decoration: none;
+}
+/* Enlaces verdes cuando han sido visitados */
+a:visited {
+    color: darkgreen;
+}
+/* Estado con foco (por teclado, por ejemplo) */
+a:focus{
+    color: blue;
+    text-decoration: underline;
+}
+
 
 p{
     font-style: italic;
